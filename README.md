@@ -41,3 +41,8 @@ You can select the type of noise by running the corresponding script below:
 - **Edge addition noise only**: `data_adde.py`  
 - **Node deletion noise only**: `data_dn.py`  
 - **Node addition noise only**: `data_addn.py`
+
+## Run TDGNet
+```
+uv run python tdgnet.py
+```
