@@ -19,11 +19,11 @@ from torch_geometric.nn import Linear, MessagePassing, pool, GATConv, GCNConv
 from torch_geometric.nn.aggr import AttentionalAggregation
 from torch_geometric.nn.inits import glorot, zeros
 from torch_geometric.typing import Adj, OptTensor
-from torch_geometric.utils import dense_to_sparse, softmax, subgraph, to_dense_adj, to_undirected
+from torch_geometric.utils import dense_to_sparse, softmax, subgraph, to_dense_adj
 
 from inari.data import MyDataset, prepare_data_for_subgraph_task
 from inari.loss import MMLoss
-from inari.utils_ms import fix_random_seed, metric_acc, metric_f1, graph_edit_dis, compute_num_components, metric_acc2, metric_acc3, metric_acc4
+from inari.utils_ms import fix_random_seed, metric_acc4
 from inari.model import SubCrossGMN
 from inari.layers import SimpleMM, AffinityMM
 
