@@ -29,3 +29,15 @@ After the test dataset has been created, add noise by running:
 ```
 uv run python preprocess/data_noise.py
 ```
+
+## Types of Noise in Datasets
+
+In this study, noise can be added by modifying the input noise-free dataset.  
+You can select the type of noise by running the corresponding script below:
+
+- **Mixed noise**: `data_noise.py`  
+- **Label noise only**: `data_fnoise.py`  
+- **Edge deletion noise only**: `data_de.py`  
+- **Edge addition noise only**: `data_adde.py`  
+- **Node deletion noise only**: `data_dn.py`  
+- **Node addition noise only**: `data_addn.py`
